@@ -1,19 +1,14 @@
 
-* {
+p,
+ul { border: 2px solid rebeccapurple;
+padding: .5em;}
 
-    box-sizing: border-box;
-}
-.list1 {
-   font-size: 30px;
-background-color: aliceblue;
-padding: 10px;
-margin: 20px;
-    }
+.block,
+li { border: 2px solid blue;
+padding: .5em;}
 
-.list2 {
-    text-align: center;
-    background-color: aquamarine;
-    font-size: 45px;
-    padding: 30px;
-    margin: 40px;
+ul {display: flex;
+list-style: none;}
+.block { 
+    display: block;
 }
